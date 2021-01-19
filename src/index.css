@@ -1,0 +1,25 @@
+.form,
+.greetings {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.list,
+.list2,
+.button {
+  display: flex;
+  margin: 10px;
+}
+.button {
+  margin: 0;
+  margin-left: 10px;
+  margin-right: 0px;
+  height: 100%;
+}
+
+.finish {
+  margin-left: 5px;
+}
