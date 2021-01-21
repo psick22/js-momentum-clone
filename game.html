@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./src/styles.css" />
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Random Number Game</h1>
+    <h3 class="title">Generate a number between 0 to 100</h3>
+    <div></div>
+    <input
+      id="slider"
+      type="range"
+      min="0"
+      max="200"
+      value="100"
+      list="tickmarks"
+    />
+    <datalist id="tickmarks">
+      <option value="0"></option>
+      <option value="50"></option>
+      <option value="100"></option>
+      <option value="150"></option>
+      <option value="200"></option>
+    </datalist>
+
+    <form class="form hide">
+      <p>Guess the number :</p>
+      <input
+        type="number"
+        class="number__input"
+        min="0"
+        max="100"
+        placeholder="Guess what?"
+      />
+      <button class="number__submit">Play!</button>
+    </form>
+    <p class="result__detail hide">You chose: ~~, the machine chose : ~~</p>
+    <h2 class="result__title hide">You lost</h2>
+
+    <script src="./src/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,12 @@
+body {
+  font-family: sans-serif;
+}
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+.number__input {
+  width: 200px;
+}
